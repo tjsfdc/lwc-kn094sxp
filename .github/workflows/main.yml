@@ -1,6 +1,6 @@
 #.github/workflows/main.yml
 name: Deploy to Salesforce
-on: manual
+
 
 jobs:
   build:
