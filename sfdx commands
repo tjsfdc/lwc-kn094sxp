@@ -1,3 +1,7 @@
 sfdx force:org:list
 
-sfdx auth:web:login --setalias lwc
+sfdx auth:web:login --setdefaultdevhubusername --setalias lwc 
+
+sfdx force:config:set defaultusername=lwc
+
+
