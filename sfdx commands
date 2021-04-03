@@ -4,4 +4,19 @@ sfdx auth:web:login --setdefaultdevhubusername --setalias lwc
 
 sfdx force:config:set defaultusername=lwc
 
+sfdx force:org:create adminEmail=me@email.com edition=Enterprise username=admin_user@orgname.org
 
+
+sfdx force:source:pull
+sfdx force:source:push
+sfdx force:source:retrieve
+
+sfdx force:mdapi:deploy
+
+sfdx force:mdapi:retrieve -r mdapi -k package1.xml
+
+Convert unzipped mdapi format code to source format. 
+sfdx force:mdapi:convert -r mdapi -d mdapi/force-app
+
+Convert dx source format to mdapi format code.  
+sfdx force:source:convert -r force-app -d mdapi
