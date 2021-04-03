@@ -32,12 +32,6 @@ jobs:
         node_modules/sfdx-cli/bin/run force:org:list --all
         ls
         date
-        cd node_modules/sfdx-cli/
-        ls
-        date
-        cd bin/run
-        ls
-        date
       env:
         SALESFORCE_JWT_SECRET_KEY: ${{ secrets.SALESFORCE_JWT_SECRET_KEY }}
       
