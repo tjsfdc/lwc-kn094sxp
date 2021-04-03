@@ -13,10 +13,10 @@ sfdx force:source:retrieve
 
 sfdx force:mdapi:deploy
 
-sfdx force:mdapi:retrieve -r mdapi -k package1.xml
+sfdx force:mdapi:retrieve -r mdapi -k package.xml
 
 Convert unzipped mdapi format code to source format. 
-sfdx force:mdapi:convert -r mdapi -d mdapi/force-app
+sfdx force:mdapi:convert -r mdapi/unpackaged -d force-app
 
 Convert dx source format to mdapi format code.  
 sfdx force:source:convert -r force-app -d mdapi

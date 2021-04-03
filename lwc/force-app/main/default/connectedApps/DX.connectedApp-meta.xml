@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>tj.sfdc@outlook.com</contactEmail>
+    <label>DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDKzCCAhMCFHwyqJy6JsZkcBpDhNHUsyT261n1MA0GCSqGSIb3DQEBCwUAMFIxCzAJBgNVBAYTAkFVMQwwCgYDVQQIDANWSUMxEjAQBgNVBAcMCU1lbGJvdXJuZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMB4XDTIxMDQwMjIzNDE0NloXDTIyMDQwMjIzNDE0NlowUjELMAkGA1UEBhMCQVUxDDAKBgNVBAgMA1ZJQzESMBAGA1UEBwwJTWVsYm91cm5lMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1U1VcEf4N4TQRiatHL34oix/KRNSKdCt2TQrxxmIB+sg6OULMwbE1NV/RIcWlfyQGyUXuqpZmjXtYDc3YNAwiEYPKmuHlSHyTcIntMl0Wazn6BK9n1nI+f01p5oflU09BaIGVSef0chbZ+TEA/CpveKQgcgiC1el3CkchmsRlGl0nitzpez3Suc7RZ/lbTcyiHjvD1EinVG0ruUmC2PaSM5uz1Js2Z1ck2HmEeFLvgn8Snqu0HjiFZDoQGULl6a4MDN4KzbnMDoZV+Xrhf/PNvzfQFoARx9uuYiHZGYqv1ZRRaaFSf5mYjpdZCiZalDxFMMf+/dHycCjHGB2TB8LfAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAG/xiyx5cQxJ37wCPz3LKyUPUhu4pZq+oxJ3gCt7IS3pPgIRcu/EgvxV79fQzgFvU5KffJUL3T+mF90S1KfY1mdCazR46Y7fOPlIidYilpYKHZZ1mClBpswy50Ptk4V2SS+pjbzGdgm0yCcN8irfhqR4sE1fPAmEsFOdPSZPIi40/vEvc+KsJIZ+wN3ZQIOM0UdUv9+eTJ5stV8dBpCCe45WsieGVILOi3KmNsqZ0pUMDjmqyNisscHTKTiYUbOXoV1iNiY1FZlaa5ltol5mh49G3BOQVomEnNLqGhhrRPgOPrAeZG+2pMzXJLXH54QLGYA2HfC6HiEPUhdIzUB6/mQ=</certificate>
+        <consumerKey>3MVG9fe4g9fhX0E7nx4H0NVun6lmKfu0ipEEmEDzXcQ9fmly5iUw695K6q42V9QFYeQ5ArqwBpYdvZq0hnGsC</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

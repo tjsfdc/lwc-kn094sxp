@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>Melbourne.inbox@gmail.com</contactEmail>
+    <label>Github</label>
+    <oauthConfig>
+        <callbackUrl>https://test.salesforce.com</callbackUrl>
+        <consumerKey>3MVG9fe4g9fhX0E7nx4H0NVun6iva6T_I7k_9apB8dsWst6ZvHH.8GDQVNmVMAowi.4QTdRvgo5nnXtbhHmbN</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
